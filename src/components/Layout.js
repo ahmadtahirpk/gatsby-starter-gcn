@@ -7,6 +7,7 @@ import theme from '../styles/theme'
 import config from '../utils/siteConfig'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
+import ContactForm from '../components/ContactForm'
 
 const Template = ({ children }) => {
   return (
@@ -24,6 +25,7 @@ const Template = ({ children }) => {
             <Menu />
             {children}
           </div>
+          <ContactForm />
           <Footer />
         </>
       </ThemeProvider>
